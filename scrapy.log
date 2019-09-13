@@ -1,0 +1,56 @@
+2019-09-10 22:13:16 [scrapy.utils.log] INFO: Scrapy 1.7.3 started (bot: scrapybot)
+2019-09-10 22:13:16 [scrapy.utils.log] INFO: Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.7.0, Python 2.7.16 (default, Mar  4 2019, 09:01:38) - [GCC 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1c  28 May 2019), cryptography 2.7, Platform Darwin-18.7.0-x86_64-i386-64bit
+2019-09-10 22:13:16 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_LOADER_WARN_ONLY': True, 'FEED_FORMAT': 'json', 'FEED_URI': 'quotes.json', 'LOG_FILE': 'scrapy.log', 'DOWNLOAD_DELAY': 0.2}
+2019-09-10 22:13:16 [scrapy.extensions.telnet] INFO: Telnet Password: 43479d249c316bba
+2019-09-10 22:13:16 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2019-09-10 22:13:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-09-10 22:13:16 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-09-10 22:13:16 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-09-10 22:13:16 [scrapy.core.engine] INFO: Spider opened
+2019-09-10 22:13:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-09-10 22:13:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-09-10 22:13:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vegrecipesofindia.com/recipes/desserts-recipes/> (referer: None)
+2019-09-10 22:13:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-09-10 22:13:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 249,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 26511,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.245294,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 9, 11, 2, 13, 16, 543443),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 10,
+ 'memusage/max': 52039680,
+ 'memusage/startup': 52039680,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 9, 11, 2, 13, 16, 298149)}
+2019-09-10 22:13:16 [scrapy.core.engine] INFO: Spider closed (finished)
